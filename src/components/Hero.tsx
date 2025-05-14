@@ -14,35 +14,43 @@ const Hero = () => {
       <div className="absolute bottom-10 left-10 w-72 h-72 bg-red-500/10 rounded-full blur-3xl"></div>
       
       <div className="container-custom relative z-10">
-        <div className="max-w-3xl mx-auto text-center">
-          <img 
-            src="/lovable-uploads/8a64a688-6c5b-4b55-ab6e-7fe5dc86a71a.png" 
-            alt="EPIS Moriá Logo" 
-            className="mx-auto h-32 mb-8 animate-fade-in"
-          />
+        <div className="flex flex-col md:flex-row items-center justify-between gap-8">
+          {/* Text and buttons (left side) */}
+          <div className="md:w-3/5 text-left">
+            <h1 className={`${isMobile ? 'text-3xl' : 'text-4xl md:text-5xl lg:text-6xl'} font-bold text-white leading-tight mb-6 animate-fade-in`} style={{
+              animationDelay: '0.1s'
+            }}>
+              Cuidado e proteção para saúde do trabalhador
+            </h1>
+            
+            <p className="text-lg text-red-200 mb-10 animate-fade-in" style={{
+              animationDelay: '0.2s'
+            }}>
+              Equipe seu time com os melhores EPIs do mercado. Agilidade no atendimento, ampla gama de produtos e entrega rápida.
+            </p>
+            
+            <div className="flex flex-col sm:flex-row justify-start gap-4 animate-fade-in" style={{
+              animationDelay: '0.3s'
+            }}>
+              <a href="https://wa.me/5551995176810" target="_blank" rel="noopener noreferrer" className="bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-md transition-all flex items-center justify-center gap-2">
+                <img src="/lovable-uploads/9a8edb27-0fd0-49ff-9165-64acf1186a7f.png" alt="WhatsApp" className="w-5 h-5" />
+                <span>Solicitar Orçamento</span>
+              </a>
+              <a href="#services" className="btn-secondary">
+                Nossos serviços
+              </a>
+            </div>
+          </div>
           
-          <h1 className={`${isMobile ? 'text-3xl' : 'text-4xl md:text-5xl lg:text-6xl'} font-bold text-white leading-tight mb-6 animate-fade-in`} style={{
+          {/* Logo (right side) */}
+          <div className="md:w-2/5 flex justify-center md:justify-end animate-fade-in" style={{
             animationDelay: '0.1s'
           }}>
-            Cuidado e proteção para saúde do trabalhador
-          </h1>
-          
-          <p className="text-lg text-red-200 mb-10 animate-fade-in" style={{
-            animationDelay: '0.2s'
-          }}>
-            Equipe seu time com os melhores EPIs do mercado. Agilidade no atendimento, ampla gama de produtos e entrega rápida.
-          </p>
-          
-          <div className="flex flex-col sm:flex-row justify-center gap-4 animate-fade-in" style={{
-            animationDelay: '0.3s'
-          }}>
-            <a href="https://wa.me/5551995176810" target="_blank" rel="noopener noreferrer" className="bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-md transition-all flex items-center justify-center gap-2">
-              <img src="/lovable-uploads/9a8edb27-0fd0-49ff-9165-64acf1186a7f.png" alt="WhatsApp" className="w-5 h-5" />
-              <span>Solicitar Orçamento</span>
-            </a>
-            <a href="#services" className="btn-secondary">
-              Nossos serviços
-            </a>
+            <img 
+              src="/lovable-uploads/8a64a688-6c5b-4b55-ab6e-7fe5dc86a71a.png" 
+              alt="EPIS Moriá Logo" 
+              className="h-32 md:h-60 object-contain" 
+            />
           </div>
         </div>
       </div>
