@@ -76,7 +76,7 @@ const Contact = () => {
                 href="mailto:Comercial1.epismoria@outlook.com"
                 className="bg-black hover:bg-neutral-800 text-red-400 px-6 py-2 rounded-md inline-flex items-center justify-center gap-2 transition-all font-medium"
               >
-                <span>comercial1.epismoria@outlook.com</span>
+                <span className="text-sm">comercial1.epismoria@outlook.com</span>
               </a>
             </div>
           </div>
