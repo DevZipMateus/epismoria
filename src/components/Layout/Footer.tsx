@@ -1,11 +1,8 @@
-
 import React from 'react';
 import { Phone, Mail, MapPin, Instagram } from 'lucide-react';
 import { Link } from 'react-router-dom';
-
 const Footer = () => {
-  return (
-    <footer className="bg-black text-white">
+  return <footer className="bg-black text-white">
       <div className="container-custom py-12 md:py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Contact Information */}
@@ -28,7 +25,9 @@ const Footer = () => {
           </div>
           
           {/* Quick Links */}
-          <div className="animate-fade-in" style={{ animationDelay: '0.1s' }}>
+          <div className="animate-fade-in" style={{
+          animationDelay: '0.1s'
+        }}>
             <h3 className="text-xl font-semibold mb-6">Links Rápidos</h3>
             <ul className="space-y-3">
               <li>
@@ -57,30 +56,19 @@ const Footer = () => {
           </div>
           
           {/* Social Media */}
-          <div className="animate-fade-in" style={{ animationDelay: '0.2s' }}>
+          <div className="animate-fade-in" style={{
+          animationDelay: '0.2s'
+        }}>
             <h3 className="text-xl font-semibold mb-6">Redes Sociais</h3>
-            <div className="flex space-x-4 mb-6">
-              <a href="https://instagram.com/epismoria" target="_blank" rel="noopener noreferrer" className="bg-white/10 hover:bg-gradient-to-br from-purple-600 via-pink-500 to-orange-400 hover:text-white transition-colors duration-300 p-2 rounded-full">
-                <Instagram size={20} />
-              </a>
-            </div>
+            
 
-            <a 
-              href="https://instagram.com/epismoria" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-flex items-center bg-gradient-to-br from-purple-600 via-pink-500 to-orange-400 px-4 py-2 rounded-full text-white font-medium hover:shadow-lg transition-all duration-300 mb-8"
-            >
+            <a href="https://instagram.com/epismoria" target="_blank" rel="noopener noreferrer" className="inline-flex items-center bg-gradient-to-br from-purple-600 via-pink-500 to-orange-400 px-4 py-2 rounded-full text-white font-medium hover:shadow-lg transition-all duration-300 mb-8">
               <Instagram size={18} className="mr-2" />
               <span>@epismoria</span>
             </a>
 
             <div className="mt-4">
-              <img 
-                src="/lovable-uploads/8a64a688-6c5b-4b55-ab6e-7fe5dc86a71a.png" 
-                alt="EPIS Moriá Logo" 
-                className="h-16"
-              />
+              <img src="/lovable-uploads/8a64a688-6c5b-4b55-ab6e-7fe5dc86a71a.png" alt="EPIS Moriá Logo" className="h-16" />
             </div>
           </div>
         </div>
@@ -90,8 +78,6 @@ const Footer = () => {
           <p>© {new Date().getFullYear()} EPIS Moriá. Todos os direitos reservados.</p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
