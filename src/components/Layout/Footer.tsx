@@ -18,11 +18,11 @@ const Footer = () => {
               </li>
               <li className="flex items-start">
                 <Mail className="mr-3 mt-1 flex-shrink-0" size={18} />
-                <span>Comercial1.epismoria@outlook.com</span>
+                <span className="text-sm">Comercial1.epismoria@outlook.com</span>
               </li>
               <li className="flex items-start">
                 <MapPin className="mr-3 mt-1 flex-shrink-0" size={18} />
-                <span>Bastão do Imperador, 56, Caju - Nova Santa Rita/RS</span>
+                <span>Nova Santa Rita/RS</span>
               </li>
             </ul>
           </div>
@@ -47,18 +47,35 @@ const Footer = () => {
                 <a href="#contact" className="hover:text-red-400 transition-colors duration-300 inline-block">Contato</a>
               </li>
             </ul>
+            
+            <h3 className="text-xl font-semibold mt-8 mb-4">Horário de Atendimento</h3>
+            <div className="text-sm space-y-1 text-white/80">
+              <p>Segunda - Quinta: 08:00 - 18:00</p>
+              <p>Sexta: 08:00 - 17:00</p>
+              <p>Sábado e Domingo: Fechado</p>
+            </div>
           </div>
           
           {/* Social Media */}
           <div className="animate-fade-in" style={{ animationDelay: '0.2s' }}>
             <h3 className="text-xl font-semibold mb-6">Redes Sociais</h3>
             <div className="flex space-x-4 mb-6">
-              <a href="https://instagram.com/epismoria" target="_blank" rel="noopener noreferrer" className="bg-white/10 hover:bg-red-400/80 hover:text-black transition-colors duration-300 p-2 rounded-full">
+              <a href="https://instagram.com/epismoria" target="_blank" rel="noopener noreferrer" className="bg-white/10 hover:bg-gradient-to-br from-purple-600 via-pink-500 to-orange-400 hover:text-white transition-colors duration-300 p-2 rounded-full">
                 <Instagram size={20} />
               </a>
             </div>
 
-            <div className="mt-8">
+            <a 
+              href="https://instagram.com/epismoria" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center bg-gradient-to-br from-purple-600 via-pink-500 to-orange-400 px-4 py-2 rounded-full text-white font-medium hover:shadow-lg transition-all duration-300 mb-8"
+            >
+              <Instagram size={18} className="mr-2" />
+              <span>@epismoria</span>
+            </a>
+
+            <div className="mt-4">
               <img 
                 src="/lovable-uploads/8a64a688-6c5b-4b55-ab6e-7fe5dc86a71a.png" 
                 alt="EPIS Moriá Logo" 

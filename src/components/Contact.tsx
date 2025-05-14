@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Phone, Mail, MapPin } from 'lucide-react';
+import { Phone, Mail, MapPin, Instagram } from 'lucide-react';
 import { useIsMobile } from '../hooks/use-mobile';
 
 const Contact = () => {
@@ -64,19 +64,21 @@ const Contact = () => {
             </div>
           </div>
           
-          {/* Email Card */}
+          {/* Instagram Card */}
           <div className="bg-white rounded-xl shadow-sm overflow-hidden animate-fade-in" style={{ animationDelay: '0.2s' }}>
-            <div className="bg-neutral-800 p-6 flex items-center justify-center">
-              <Mail className="w-16 h-16 text-red-400" />
+            <div className="bg-gradient-to-br from-purple-600 via-pink-500 to-orange-400 p-6 flex items-center justify-center">
+              <Instagram className="w-16 h-16 text-white" />
             </div>
             <div className="p-6 text-center">
-              <h3 className="text-lg font-semibold text-neutral-900 mb-2">E-mail</h3>
-              <p className="text-neutral-600 mb-4">Envie sua mensagem</p>
+              <h3 className="text-lg font-semibold text-neutral-900 mb-2">Instagram</h3>
+              <p className="text-neutral-600 mb-4">Siga-nos nas redes sociais</p>
               <a 
-                href="mailto:Comercial1.epismoria@outlook.com"
+                href="https://instagram.com/epismoria"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-black hover:bg-neutral-800 text-red-400 px-6 py-2 rounded-md inline-flex items-center justify-center gap-2 transition-all font-medium"
               >
-                <span className="text-sm">comercial1.epismoria@outlook.com</span>
+                <span>@epismoria</span>
               </a>
             </div>
           </div>
@@ -85,14 +87,15 @@ const Contact = () => {
         {/* Address and Hours Card */}
         <div className="mt-12 bg-white rounded-xl shadow-sm p-8 max-w-4xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* Address */}
+            {/* Location */}
             <div className="flex items-start">
               <div className="bg-neutral-100 p-3 rounded-full mr-4 flex-shrink-0">
                 <MapPin className="text-neutral-700" size={24} />
               </div>
               <div>
-                <h4 className="text-lg font-semibold text-neutral-900 mb-2">Endereço</h4>
-                <p className="text-neutral-600">Bastão do Imperador, 56, Caju - Nova Santa Rita/RS</p>
+                <h4 className="text-lg font-semibold text-neutral-900 mb-2">Localização</h4>
+                <p className="text-neutral-600">Nova Santa Rita/RS</p>
+                <p className="text-neutral-600 text-sm mt-1">Atendimento online</p>
               </div>
             </div>
             
@@ -102,15 +105,15 @@ const Contact = () => {
               
               <div className="space-y-2">
                 <div className="flex justify-between">
-                  <span className="text-neutral-600">Segunda - Sexta:</span>
+                  <span className="text-neutral-600">Segunda - Quinta:</span>
                   <span className="font-medium text-neutral-900">08:00 - 18:00</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-neutral-600">Sábado:</span>
-                  <span className="font-medium text-neutral-900">09:00 - 13:00</span>
+                  <span className="text-neutral-600">Sexta:</span>
+                  <span className="font-medium text-neutral-900">08:00 - 17:00</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-neutral-600">Domingo:</span>
+                  <span className="text-neutral-600">Sábado e Domingo:</span>
                   <span className="font-medium text-neutral-900">Fechado</span>
                 </div>
               </div>
