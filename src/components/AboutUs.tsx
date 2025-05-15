@@ -9,20 +9,7 @@ const AboutUs = () => {
             <div className="relative">
               <div className="bg-corporate-blue/20 w-full h-full absolute -left-6 -top-6 rounded-lg"></div>
               <img alt="Equipe de contabilidade trabalhando" className="relative z-10 rounded-lg shadow-lg w-full object-cover h-[400px]" src="https://media.istockphoto.com/id/584780288/pt/foto/de-seguran%C3%A7a.webp?a=1&b=1&s=612x612&w=0&k=20&c=8F4N8lHy_Ho2lT8307XBt8cdDxeMzd4KRP81Mv7tSRE=" />
-              <div className="absolute -bottom-8 -right-8 bg-white rounded-lg shadow-lg p-6 z-20 animate-float">
-                <div className="flex items-center justify-between mb-4">
-                  <div className="flex items-center">
-                    <div className="w-3 h-3 bg-corporate-blue rounded-full mr-2"></div>
-                    <span className="text-sm font-medium text-gray-600">Desde 2010</span>
-                  </div>
-                  <div className="flex items-center">
-                    <div className="w-3 h-3 bg-corporate-lightBlue rounded-full mr-2"></div>
-                    <span className="text-sm font-medium text-gray-600">+500 clientes</span>
-                  </div>
-                </div>
-                <div className="text-3xl font-bold text-gray-900">13</div>
-                <div className="text-sm text-gray-600">Anos de experiência em contabilidade</div>
-              </div>
+              
             </div>
           </div>
           
