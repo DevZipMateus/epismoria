@@ -26,14 +26,14 @@ const AboutUs = () => {
             <p className="text-gray-600 mb-6 animate-fade-in" style={{
             animationDelay: '0.2s'
           }}>
-              Desde 2010, nosso escritório se dedica ao auxílio administrativo de empresas de diversos portes e segmentos, 
-              utilizando técnicas contábeis e administrativas modernas para oferecer o melhor serviço aos nossos clientes.
+              A EPIs Moriá nasceu do olhar atento às oportunidades diante da escassez de Equipamentos de Proteção Individual (EPIs) no mercado. Movida pela paixão pelo comércio e pelo compromisso com a segurança no trabalho, a fundadora Gisele de Souza Flores, com mais de três anos de experiência no setor, decidiu transformar seu sonho em realidade em janeiro de 2025.
             </p>
             <p className="text-gray-600 mb-8 animate-fade-in" style={{
             animationDelay: '0.3s'
           }}>
-              Nossa equipe técnica está em constante capacitação para oferecer soluções inovadoras na área contábil, 
-              garantindo tranquilidade e segurança para que você possa focar no crescimento do seu negócio.
+             Nosso propósito é claro: proteger sua equipe com EPIs de alta qualidade, sempre em conformidade com as Normas Regulamentadoras (NRs). Priorizamos um atendimento personalizado, com suporte online eficiente e entregas rápidas, garantindo agilidade e confiança em cada pedido.
+
+Conte com a EPIs Moriá para cuidar do que há de mais importante: a segurança e o bem-estar de quem move sua empresa.
             </p>
             
             {/* Key Points */}
