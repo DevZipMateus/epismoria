@@ -47,6 +47,7 @@ const Header = () => {
           <div className="flex space-x-4">
             <a href="https://instagram.com/epismoria" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-red-500 transition-colors duration-300">
               <Instagram size={18} />
+              @epismoria
             </a>
           </div>
         </div>
