@@ -44,12 +44,17 @@ const Header = () => {
           </div>
           
           {/* Social Media Icons */}
-          <div className="flex space-x-4">
-            <a href="https://instagram.com/epismoria" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-red-500 transition-colors duration-300">
-              <Instagram size={18} />
-              @epismoria
-            </a>
-          </div>
+<div className="flex space-x-4">
+  <a
+    href="https://instagram.com/epismoria"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center text-gray-500 hover:text-red-500 transition-colors duration-300"
+  >
+    <Instagram size={18} className="mr-2" />
+    @epismoria
+  </a>
+</div>
         </div>
         
         {/* Main Navigation */}
