@@ -20,9 +20,7 @@ const AboutUs = () => {
             </div>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 animate-fade-in" style={{
             animationDelay: '0.1s'
-          }}>
-              Excelência em serviços contábeis para o seu negócio
-            </h2>
+          }}>Compromisso com a sua Segurança, Excelência em cada EPI</h2>
             <p className="text-gray-600 mb-6 animate-fade-in" style={{
             animationDelay: '0.2s'
           }}>
